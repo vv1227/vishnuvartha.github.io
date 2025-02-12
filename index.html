@@ -3,40 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Music Concert Event</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>My Simple Website</h1>
+        <div class="container">
+            <h1>Music Concert 2025</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
-    
-    <section id="home" class="section">
-        <h2>Welcome to my website!</h2>
-        <p>This is a simple website built with HTML and CSS.</p>
+
+    <section id="about">
+        <div class="container">
+            <h2>About the Event</h2>
+            <p>Join us for the biggest music concert of the year! Featuring amazing artists from all over the world, this concert will be a celebration of music, culture, and fun.</p>
+        </div>
     </section>
 
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p>Here you can find more information about our website and purpose.</p>
+    <section id="gallery">
+        <div class="container">
+            <h2>Event Gallery</h2>
+            <div class="gallery-grid">
+                <img src="concert-photo1.jpg" alt="Concert Photo 1">
+                <img src="concert-photo2.jpg" alt="Concert Photo 2">
+                <img src="concert-photo3.jpg" alt="Concert Photo 3">
+            </div>
+        </div>
     </section>
 
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Feel free to get in touch with us!</p>
+    <section id="video">
+        <div class="container">
+            <h2>Event Video</h2>
+            <video controls>
+                <source src="concert-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 My Simple Website. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Music Concert Event. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
